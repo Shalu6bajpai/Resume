@@ -598,3 +598,127 @@ button:focus {
     height:inherit;
     width:60%;
 }
+/* media queries */
+
+@media screen and (max-height:650px){
+    
+
+
+    #main-header{
+        height: 75vh;
+    }
+}   
+
+
+@media screen and (max-height:400px){
+    
+    #main-header{
+        height: 100vh;
+    }   
+}
+
+
+
+@media screen and (max-width:1300px){
+
+    .timeline{
+        width: 75%;
+    }
+
+    .timeline-box{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width:1000px){
+
+    .timeline{
+        width: 85%;
+    }
+
+    .timeline-box{
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width:800px){
+
+    
+    .timeline{
+        width: 90%;
+    }
+    
+    .timeline-box{
+        width: 85%;
+        align-self: flex-end !important;
+        margin-bottom: 50px;
+    }
+
+    .divider{
+        left: -2%;   
+    }
+
+
+    #education .timeline-box::after{
+        left: -2%;
+    }
+
+
+    .timeline-box::after{
+        left: -2%;
+        margin-top: -160px !important;
+    }
+
+    .timeline-box .timeline-box-heading-content{
+        align-items: flex-start !important;
+    }
+
+    .timeline-box>.timeline-box-heading{
+        flex-direction: row-reverse !important;
+    }
+
+}
+
+
+@media screen and (max-width:650px){
+
+    .contact-form-btn{
+        margin-left: 35px;
+    }
+
+    .timeline-box::after{
+        margin-top: -145px !important;
+    }
+
+    .divider{
+        left: 0%;   
+    }
+    
+    #my-image{
+        width: 170px;
+        height: 170px;
+    }
+    body{
+        font-size: 25px;
+    }
+    #name-social-section{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+    }
+    #name-section{
+        margin-left: -172px;
+    }
+    
+    #main-header #social-list{
+        margin-left: -190px;
+    }
+    #navigation-bar>ul{
+        visibility: hidden;
+    }
+    #ham-menu{
+        visibility: visible;
+    }
+}
