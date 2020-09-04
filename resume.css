@@ -12,7 +12,7 @@ body {
     height: 65vh;
     opacity: 0.8;
     background-image: url(assets/3.jpg);
-    background-size:contain;
+    background-size:cover;
     background-position: center;
     background-attachment: fixed;
     padding-top: 1.2rem;
