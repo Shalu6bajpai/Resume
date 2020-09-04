@@ -261,63 +261,6 @@ section:nth-child(2n + 1) {
     height: 75%;
     color: #433E3F;
 }
-@media screen and (max-width:600px)
-{
-    #timeline-divider{
-        left:5%;
-    }
-    .timeline-box{
-        left:12% !important;
-        width:90%;
-    }
-    .timeline-box:nth-child(2n+1)::after{
-        left:-9.5%;
-    }
-    .timeline-box:nth-child(2n)::after{
-        left:-9.5%;
-    }
-    #education #timeline-divider{
-        left:100%;
-    }
-    #education .timeline-box{
-        left:0% !important;
-        width:95%;
-        padding-right: 5.5%;
-        padding-left: 0%;
-    }
-    #education .timeline-box:nth-child(2n+1)::after{
-        left:98%;
-    }
-    #education .timeline-box:nth-child(2n)::after{
-        left:98%;
-    }
-    #my-name {
-    font-size: 2rem;
-    letter-spacing: 0.05rem;
-    color: white;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    }
-    .nav-menu a
-    {display: none;}
-   
-    #my-details-container 
-    {
-    width: 250px !important;
-    }
-    #contact-form-container 
-    {
-    width: 20% !important;
-    display:none;
-	}
- 	#contact .social-icons li a i
- 	{
-    font-size: 1rem !important;
-	}
-    #experience .section-heading span{
-    font-size: 33px !important;
-}
-}
 
 #timeline-divider .timeline-traveller {
     position: sticky;
